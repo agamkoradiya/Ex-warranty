@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Expired Calculator</string>
+    <string name="sign_in_with_google">Sign In With Google</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="example">Example</string>
+
+    <string name="id">ID</string>
+
+    <string name="name">Name</string>
+
+    <string name="email_address">Email address</string>
+
+    <string name="sign_out">Sign out</string>
+</resources>
