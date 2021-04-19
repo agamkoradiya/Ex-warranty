@@ -4,6 +4,7 @@
 1) Connect your project to firebase
 2) Add SHA certificate fingerprints into your firebase
 # Storage rules :
+```
 rules_version = '2';
 service firebase.storage {
   match /b/{bucket}/o {
@@ -12,10 +13,13 @@ service firebase.storage {
     }
   }
 }
+```
 # Realtime DB rules :
+```
 {
   "rules": {
     ".read": "auth != null",
     ".write": "auth != null"
   }
 }
+```
